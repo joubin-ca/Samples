@@ -8,5 +8,10 @@ namespace Domain
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public IList<Address> Addresses { get; set; }
+
+        public User()
+        {
+            Addresses = new List<Address>();
+        }
     }
 }
