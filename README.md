@@ -1,2 +1,2 @@
-Samples
+Starter Projects
 =======
